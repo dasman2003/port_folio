@@ -1,0 +1,269 @@
+
+body {
+  background-color: #e0e0e0; 
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+header {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 40px;
+}
+.photo-profile {
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease;
+}
+.photo-profile:hover {
+  transform: scale(1.05);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    gap: 20px;
+}
+.titrage1 {
+	color: black;
+	font-weight: bold;
+    text-align: justify;
+    font-size: 35px;
+    margin: 20px;
+    padding: 10px;
+    line-height: 2;
+    
+}
+.a-propos {
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  text-align: left;
+}
+.a-propos img {
+  width: 400px;
+  
+}
+
+main{
+     text-align: center;
+     font-weight: bold;
+     font-style:italic;
+     font-size: 30px;
+     font-family:Arial,serif;
+}
+.titrage {
+	color: red;
+	font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+.question {
+	color: red;
+	font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    font-style:italic;
+}
+.final {
+	color: green;
+	font-weight: bold;
+    text-align: center;
+    font-size: 28px;
+    font-style:italic;
+    margin: 20px;
+    padding: 10px;
+    line-height: 2;
+}
+.btn {
+	color: blue;
+	font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    font-style:italic;
+    margin: 20px;
+    padding: 10px;
+    line-height: 2;
+}
+.important{
+    color: blue;
+	font-weight: bold;
+    text-align: justify;
+    font-size: 30px;
+    line-height: 2;
+}
+.contenue {
+	color: black;
+	font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    line-height: 2;
+}
+.contenues {
+	color: black;
+	font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin: 15px;
+    padding: 10px;
+    line-height: 2;
+}
+.zone {
+	color: red;
+	font-weight: bold;
+    text-align: justify;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+    line-height: 2;
+}
+.projets {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+.projets h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+.carte-projet {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.carte-projet h3 {
+    color: #008080;
+}
+.carte-projet .tags span {
+    display: inline-block;
+    background-color: #e0f0f0;
+    color: #008080;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 5px 3px;
+    font-size: 0.9em;
+}
+.carte-projet .btn {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #008080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+.carte-projet .btn:hover {
+    background-color: #006666;
+}
+.competences {
+  padding: 40px;
+  background-color: #f4f4f4;
+}
+.competences h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+.carte-competence {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.carte-competence h3 {
+  color: #008080;
+  margin-bottom: 10px;
+}
+.carte-competence ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+}
+.contact {
+  padding: 50px 20px;
+  background-color: white;
+  text-align: center;
+}
+.contact h2 {
+  color: black;
+  margin-bottom: 30px;
+}
+.formulaire-contact {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.champ-formulaire {
+  margin-bottom: 20px;
+}
+.champ-formulaire label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: bold;
+}
+.champ-formulaire input,
+.champ-formulaire textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  background-color: #fafafa;
+}
+.btn {
+  display: inline-block;
+  background-color: #008080;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+background-color: #e0e0e0
+}
+.niveau {
+	font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    line-height: 2;
+    color: red;
+}
